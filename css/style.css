@@ -1,0 +1,170 @@
+body {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+/* Top Navigation */
+.topnav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2C3E50;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.topnav a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 16px;
+    font-size: 17px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.btn {
+    border-radius: 30px;
+    background-color: #E74C3C;
+    color: white;
+    height: 50px;
+    width: 120px;
+    padding: 0;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #C0392B;
+}
+
+/* Grid layout */
+.wrap {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    grid-auto-rows: 150px;
+}
+
+/* Box 1: Image box */
+.box1 {
+    background-color: #FDEDEC;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: #2C3E50;
+    border-radius: 20px;
+}
+
+/* Box 2: Text content */
+.box2 {
+    background-color: #AED6F1;
+    grid-column-start: 1;
+    grid-row-start: 5;
+    grid-row-end: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #2C3E50;
+    border-radius: 20px;
+}
+
+/* Box 3 */
+.box3 {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 5;
+    grid-row-end: 7;
+    background-color: #F9E79F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #2C3E50;
+    border-radius: 20px;
+}
+
+/* Box 4 */
+.box4 {
+    grid-row-start: 7;
+    grid-row-end: 10;
+    background-color: #D7BDE2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #2C3E50;
+    border-radius: 20px;
+}
+
+/* Box 5 */
+.box5 {
+    background-color: #A3E4D7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #2C3E50;
+    border-radius: 20px;
+}
+
+/* Additional boxes with pastel colors */
+.box6 {
+    background-color: #FADBD8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #2C3E50;
+    border-radius: 20px;
+}
+
+.box7 {
+    background-color: #D5DBDB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #2C3E50;
+    border-radius: 20px;
+}
+
+.box8 {
+    grid-row-start: 10;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    background-color: #FCF3CF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #2C3E50;
+    border-radius: 20px;
+}
+
+/* Footer */
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2C3E50;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    margin-top: 20px;
+}
