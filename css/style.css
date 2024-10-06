@@ -3,7 +3,7 @@ body {
     margin-right: 20px;
 }
 
-/* Top Navigation */
+
 .topnav {
     display: flex;
     justify-content: space-between;
@@ -39,7 +39,7 @@ body {
     background-color: #C0392B;
 }
 
-/* Grid layout */
+
 .wrap {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -47,7 +47,7 @@ body {
     grid-auto-rows: 150px;
 }
 
-/* Box 1: Image box */
+
 .box1 {
     background-color: #FDEDEC;
     grid-column-start: 1;
@@ -63,7 +63,7 @@ body {
     border-radius: 20px;
 }
 
-/* Box 2: Text content */
+
 .box2 {
     background-color: #AED6F1;
     grid-column-start: 1;
@@ -78,7 +78,7 @@ body {
     border-radius: 20px;
 }
 
-/* Box 3 */
+
 .box3 {
     grid-column-start: 2;
     grid-column-end: 4;
@@ -94,7 +94,7 @@ body {
     border-radius: 20px;
 }
 
-/* Box 4 */
+
 .box4 {
     grid-row-start: 7;
     grid-row-end: 10;
@@ -108,7 +108,7 @@ body {
     border-radius: 20px;
 }
 
-/* Box 5 */
+
 .box5 {
     background-color: #A3E4D7;
     display: flex;
@@ -120,7 +120,7 @@ body {
     border-radius: 20px;
 }
 
-/* Additional boxes with pastel colors */
+
 .box6 {
     background-color: #FADBD8;
     display: flex;
@@ -157,7 +157,7 @@ body {
     border-radius: 20px;
 }
 
-/* Footer */
+
 .footer {
     display: flex;
     justify-content: center;
